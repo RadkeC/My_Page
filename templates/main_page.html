@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Chmielewski Projects</title>
+
+        <style>
+            {{content.style}}
+
+        </style>
+    </head>
+    <body>
+        <section class="section_content_inside">
+            <section class="section_person_header">
+                <div class="div_person_header">
+                    <h2>Chmielewski Radosław</h2>
+                    <p>email: <a href="mailto: chmielewski.r94@gmail.com">chmielewski.r94@gmail.com</a></p>
+                    <p>GitHub: <a href="https://github.com/RadkeC">github.com/RadkeC</a></p>
+                </div>
+            </section>
+
+            <section class="section_projects">
+                <section class="section_main_projects">
+                    <h3>Moje Projekty</h3>
+                    {% for project in content.main_projects %}
+                        <div class="div_main_projects">
+                            <h4>{{project.title}}</h4>
+                            <p>{{project.description}}</p>
+                            <p>{{project.additional_info}}</p>
+                            <a href="{{project.link}}">{{project.link_name}}</a>
+                        </div>
+                    {% endfor %}
+                    <div class="clearing_div"></div>
+
+                </section>
+                <section class="section_small_projects">
+                    <h3>Mniejsze Projekty</h3>
+                    {% for project in content.small_projects %}
+                        <div class="div_small_projects">
+                            <h4>{{project.title}}</h4>
+                            <p>{{project.description}}</p>
+                            <p>{{project.additional_info}}</p>
+                            <a href="{{project.link}}">{{project.link_name}}</a>
+                        </div>
+                    {% endfor %}
+
+                </section>
+            </section>
+
+        </section>
+
+
+        <div class="clearing_div"></div>
+        <section class="section_footer">
+            <div class="div_footer">
+                <p class="p_footer">Created by: Radke Lab's 2022</p>
+            </div>
+        </section>
+
+    </body>
+</html>

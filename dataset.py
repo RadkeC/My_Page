@@ -2,7 +2,7 @@ main_projects = [
     {'title': 'Device API',
      'description': 'Aplikacja do zarządzania i grupowania zbioru urządzeń w sieci. Wykonana przy użyciu fastapi i PostgeSQL. Aplikacja wykonana do użytku własnego w pracy',
      'additional_info': 'Login: Guest | Hasło: guest',
-     'link': 'https://device-api2.onrender.com',
+     'link': 'https://device-api.onrender.com',
      'link_name': 'Wypróbuj Device API'},
 
     {'title': 'Post Blog',

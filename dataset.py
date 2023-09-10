@@ -5,6 +5,12 @@ main_projects = [
      'link': 'https://device-api.onrender.com',
      'link_name': 'Wypróbuj Device API'},
 
+    {'title': 'ToDoList',
+     'description': 'Aplikacja do zarządzania listą rzeczy do zrobienia. Wykonana przy wykorzystaniu flask, brokera wiadomości kafka oraz bazy danych MongoDB.',
+     'additional_info': '',
+     'link': 'https://todolist-radke.onrender.com/',
+     'link_name': 'Wypróbuj ToDoList'},
+
     {'title': 'Post Blog',
      'description': 'Aplikacja do umieszczania artykułów w sieci. Umożliwia komentowanie, likowanie i komunikowanie się z innymi autorami. Wykonana przy użyciu django i PostgeSQL.',
      'additional_info': 'Wkrótce',
